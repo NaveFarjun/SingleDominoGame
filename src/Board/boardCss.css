@@ -1,0 +1,22 @@
+table, th, td {
+    width: 480px;
+    height: 50px;
+    text-align: center;
+  }
+.valid{
+    background-color: aqua;
+  }
+.FirstLeft{
+    transform: rotate(270deg);
+    
+}
+.FirstRight{
+    transform: rotate(90deg);
+}
+.Firstup{
+    transform: rotate(0deg);
+}
+.FirstDown{
+    transform: rotate(180deg);
+}
+

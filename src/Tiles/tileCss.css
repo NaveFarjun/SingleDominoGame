@@ -1,0 +1,19 @@
+.yesMargin{
+    background-color: lightgreen;
+}
+.noMargin{
+    background-color:white;
+}
+.FirstLeft{
+    transform: rotate(90deg);
+}
+.FirstRight{
+    transform: rotate(-90deg);
+}
+.FirstDown{
+    
+    transform: rotate(180deg);
+        }
+.FirstUp{
+    transform: rotate(0deg);
+}

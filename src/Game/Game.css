@@ -1,0 +1,72 @@
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+.left{
+  position: absolute;
+  top:83%;
+  left: 13px;
+  width: 200px;
+  height: 120px;
+}
+.scroll{
+    margin-left: 20px;
+    height: 520px;
+    width: 600px;
+    overflow: auto;
+}
+.gameOver{
+  position: absolute;
+  top: 40%;
+  right: 35%;
+  
+}
+.winnerPresenting{
+  font-family: Courier;
+  font-style: bold;
+  position: absolute;
+  top: 40%;
+  right: 35%;
+  color:gold;
+  background-color:gray;
+}
+.prevState {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.nextState {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.restart {
+  background-color: red;
+  left:82px;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
